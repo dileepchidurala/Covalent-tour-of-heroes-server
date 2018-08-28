@@ -1,0 +1,22 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "A node server built on node 10 to connect with teradata",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node10",
+    "heroes",
+    "teradatadb",
+    "ldap"
+  ],
+  "author": "Dileep",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "node-teradata": "^1.5.0"
+  }
+}
